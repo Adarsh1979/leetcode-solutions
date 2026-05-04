@@ -5,7 +5,6 @@ public class lc_697 {
     public static int[] findShortestSubArray(int[] nums) {
         HashMap<Integer, Integer> num_counts = new HashMap<>();
         HashMap<Integer, Integer> first_seen = new HashMap<>();
-
         int degree = 0;
         int min_length = Integer.MAX_VALUE;
 
